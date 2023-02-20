@@ -3,7 +3,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableUser: UILabel!
-    private var count = 0
+    private var count:Int = 0
     private var labelText: String = "Значение счетчика: "
     private func updateUserScoreLabel() {
         tableUser.text = "\(labelText) \(count)"
