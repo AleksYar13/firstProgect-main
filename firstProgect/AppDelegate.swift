@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  firstProgect
-//
-//  Created by Александр Ярешко on 18.02.2023.
-//
 
 import UIKit
 

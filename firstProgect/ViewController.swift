@@ -1,22 +1,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var tableUser: UILabel!
+    
+    @IBOutlet weak private var counterLabel: UILabel!
     private var labelText: String = "Значение счетчика: "
-    private var count:Int = 0
-
-    private func updateUserScoreLabel() {
-        tableUser.text = "\(labelText) \(count)"
-    }
+    private var count: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         updateUserScoreLabel()
     }
-    @IBAction private func tapUser(_ sender: Any) {
+    
+    private func updateUserScoreLabel() {
+        counterLabel.text = "\(labelText) \(count)"
+    }
+    
+    @IBAction private func tapButton(_ sender: Any) {
         count += 1
         updateUserScoreLabel()
-        }
+    }
 }

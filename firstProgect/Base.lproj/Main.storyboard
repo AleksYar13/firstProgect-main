@@ -34,7 +34,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
-                                    <action selector="tapUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhj-n1-NxE"/>
+                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fYY-FH-XxN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,7 +42,7 @@
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
                     <connections>
-                        <outlet property="tableUser" destination="UfJ-UW-j5o" id="62T-bs-Ymi"/>
+                        <outlet property="counterLabel" destination="UfJ-UW-j5o" id="ax0-Wy-z22"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
